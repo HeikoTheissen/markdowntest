@@ -1,3 +1,3 @@
 Left|Right
 --|--
-Annotation|Two lines<li>First</li><li>Second</li>
+Annotation|Two lines<br>- First<br>- Second
