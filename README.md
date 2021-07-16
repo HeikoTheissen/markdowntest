@@ -1,3 +1,1 @@
-Left|Right
---|--
-Annotation|Two lines<br>- First<br>- Second
+[TextFragment](vocab.xml#L1:~:text=TextFragment)
