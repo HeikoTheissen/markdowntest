@@ -1,1 +1,1 @@
-[TextFragment](vocab.xml#L1:~:text=TextFragment)
+[TextFragment](./vocab.xml#L1:~:text=TextFragment)
