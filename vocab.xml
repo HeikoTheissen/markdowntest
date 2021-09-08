@@ -1,3 +1,6 @@
-<Term Name="TextFragment">
-  <Annotation Term="Core.Description" String="Does this work?"/>
-</Term>
+<Function Name="TextFragment">
+  <Annotation Term="Core.Description" String="Overload 1"/>
+</Function>
+<Function Name="TextFragment">
+  <Annotation Term="Core.Description" String="Overload 2"/>
+</Function>
