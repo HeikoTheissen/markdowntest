@@ -1,0 +1,10 @@
+{
+  "name": "markdowntest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "O:/nodejs/process/build"
+  },
+  "author": "",
+  "license": "ISC"
+}

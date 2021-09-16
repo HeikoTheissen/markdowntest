@@ -1,0 +1,8 @@
+[TextFragment](./vocab.xml#L4:~:text=<Function%20Name="-,TextFragment,-")
+
+@startuml alicebob
+Alice -> Bob
+Bob -> Alice
+@enduml
+
+Note the included UML diagram.
