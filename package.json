@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "O:/nodejs/process/build"
+    "build": "O:/nodejs/process/build https://github.com/HeikoTheissen/markdowntest/blob"
   },
   "author": "",
   "license": "ISC"
