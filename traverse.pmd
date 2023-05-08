@@ -36,7 +36,7 @@ The function $a(u,v,x)$ takes an instance, a path and another instance as argume
 7. If $v_1$ is collection-valued, let $u[v_1]=a$ collection consisting of one item $x'$.
 8. Return $u$.
 
-(See [Example UNRESOLVED traversecoll].)
+(See [Example ##_traversecoll].)
 
 Let $r_1,\ldots,r_n$ be a sequence of the root nodes of the recursive hierarchy $(H',Q)$ preserving the order of $H'$ stable-sorted by $o$. Then the transformation $\hbox{\tt traverse}(H,Q,p,h,S,o)$ is defined as equivalent to
 $$\hbox{\tt concat}(R(r_1),\ldots,R(r_n)).$$
@@ -66,7 +66,7 @@ $\quad)$
 $)$  
 where $y_1,\ldots,y_k$ denote `lambdaVariableExpr`s and ${}/s$ may be absent.
 
-_Example 1: Based on the `SalesOrgHierarchy` defined in Hierarchy Examples_
+_Example ##ex: Based on the `SalesOrgHierarchy` defined in Hierarchy Examples_
 ```
 GET /service/SalesOrganizations?$apply=
     descendants($root/SalesOrganizations,SalesOrgHierarchy,ID,
