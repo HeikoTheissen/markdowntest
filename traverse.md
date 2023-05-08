@@ -37,7 +37,7 @@ The function $a(u,v,x)$ takes an instance, a path and another instance as argume
 
 (See Example 110.)
 
-Let $r_1,\ldots,r_n$ be a sequence of the root nodes of the recursive hierarchy $(H',Q)$ preserving the order of $H'$ stable-sorted by $o$. Then the transformation $\.{traverse}(H,Q,p,h,S,o)$ is defined as equivalent to
+Let $r_1,\ldots,r_n$ be a sequence of the root nodes of the recursive hierarchy $(H',Q)$ preserving the order of $H'$ stable-sorted by $o$. Then the transformation $\hbox{\tt traverse}(H,Q,p,h,S,o)$ is defined as equivalent to
 $$\hbox{\tt concat}(R(r_1),\ldots,R(r_n)).$$
 $R(x)$ is a transformation producing the specified tree order for a sub-hierarchy of $H'$ with root node $x$. Let $c_1,\ldots,c_m$ with $m\ge 0$ be an order-preserving sequence of the children of $x$ in $(H',Q)$.
 
