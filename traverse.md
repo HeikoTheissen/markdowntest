@@ -1,4 +1,4 @@
-### Transformation `traverse`
+ï»¿### Transformation `traverse`
 
 The traverse transformation returns instances of the input set that are or are related to nodes of a given recursive hierarchy in a specified tree order.
 
