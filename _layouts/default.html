@@ -2,7 +2,12 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
     <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
@@ -13,13 +18,24 @@
         }
       };
     </script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+    
   </head>
-  <body>{{ content }}</body>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+      {{ content }}
+      
+    </div>
+  </body>
+  
   <script>
     mermaid.initialize({
         startOnLoad:true
     });
     window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
   </script>
+  
 </html>
