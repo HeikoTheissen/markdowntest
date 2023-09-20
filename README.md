@@ -6,6 +6,6 @@ Note the included UML diagrams $m, m+1, \ldots, m+n-1$.
 
 ```mermaid
 sequenceDiagram
-    Alice ->> Bob: 
-    Bob ->> Alice: 
+  Alice ->> Bob: A
+  Bob ->> Alice: B
 ```
