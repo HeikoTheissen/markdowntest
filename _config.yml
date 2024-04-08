@@ -1,2 +1,1 @@
-kramdown:
-  html_to_native: true
+markdown: pandoc
