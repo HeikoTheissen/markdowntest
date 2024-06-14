@@ -21,8 +21,10 @@ DrillState|Possible drill states are: <dl><dt>`expanded` <dd>if an entry precede
 }];
 ```
 
+    ```xml
     <block>
       <of>
         <code />
       </of>
     </block>
+    ```
