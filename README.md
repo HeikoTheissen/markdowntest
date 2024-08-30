@@ -14,17 +14,14 @@ Left|Right
 ----|-----
 DrillState|Possible drill states are: <dl><dt>`expanded` <dd>if an entry precedes entries from deeper aggregation levels <dt>`collapsed` <dd>if an entry belongs to the highest non-expanded aggregation level, but not the deepest <dt>`leaf` <dd>if an entry belongs to the deepest aggregation level</dl>
 
-```objectivec
-@weakify(self);
-[self.bannerAdUnit fetchDemandWithAdObject:gamRequest completion:^(enum ResultCode resultCode)        { 
-  @strongify(self);
-}];
+```geojson
+{"type": "FeatureCollection",
+ "features": [{
+   "type": "Feature",
+   "bbox": [8.6, 49.2, 8.7, 49.4],
+   "geometry": {
+     "type": "Point",
+     "coordinates": [8.6381857, 49.2901137]
+   }
+ }]}
 ```
-
-    ```xml
-    <block>
-      <of>
-        <code />
-      </of>
-    </block>
-    ```
