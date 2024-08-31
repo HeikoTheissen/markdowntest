@@ -18,10 +18,6 @@ DrillState|Possible drill states are: <dl><dt>`expanded` <dd>if an entry precede
 {"type": "FeatureCollection",
  "features": [{
    "type": "Feature",
-   "bbox": [8.6, 49.2, 8.7, 49.4],
-   "geometry": {
-     "type": "Point",
-     "coordinates": [8.6381857, 49.2901137]
-   }
+   "bbox": [8.6, 49.2, 8.7, 49.4]
  }]}
 ```
