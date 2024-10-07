@@ -1,6 +1,2 @@
-<Function Name="TextFragment">
-  <Annotation Term="Core.Description" String="Overload 1"/>
-</Function>
-<Function Name="TextFragment">
-  <Annotation Term="Core.Description" String="Overload 2"/>
-</Function>
+<?xml-stylesheet type="text/xsl" href="https://midijohnny.github.io/xforms-stuff/xsltforms-1.7/xsltforms.xsl"?>
+<root/>
